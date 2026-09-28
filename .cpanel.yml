@@ -2,6 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jagoanb6/public_html/
-    - export PATH=/opt/alt/alt-nodejs20/root/usr/bin:$PATH
-    - npm install
-    - npm run build
+    - cp README.md $DEPLOYPATH
