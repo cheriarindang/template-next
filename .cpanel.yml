@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jagoanb6/public_html/
-    - cp index.php $DEPLOYPATH
+    - cp -R out/. $DEPLOYPATH
