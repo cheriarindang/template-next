@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jagoanb6/public_html/
+    - npm install
+    - npm run build
+    - /usr/bin/rsync -az out/ $DEPLOYPATH
